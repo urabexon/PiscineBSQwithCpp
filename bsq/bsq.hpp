@@ -6,7 +6,7 @@
 /*   By: hirokiurabe <hirokiurabe@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/10 22:09:56 by hirokiurabe       #+#    #+#             */
-/*   Updated: 2025/02/10 22:15:37 by hirokiurabe      ###   ########.fr       */
+/*   Updated: 2025/02/10 23:03:06 by hirokiurabe      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,11 @@
 
 #include <iostream>
 #include <fstream>
+#include <sstream>
 #include <vector>
 #include <string>
-#include <sstream>
 #include <algorithm>
+#include <ranges>
 #include <cctype>
 
 #endif

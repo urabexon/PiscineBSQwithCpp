@@ -6,14 +6,13 @@
 #    By: hirokiurabe <hirokiurabe@student.42.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/02/10 22:09:59 by hirokiurabe       #+#    #+#              #
-#    Updated: 2025/02/10 22:21:55 by hirokiurabe      ###   ########.fr        #
+#    Updated: 2025/02/10 23:01:52 by hirokiurabe      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME     = bsq
 CXX      = g++
-CXXFLAGS = -Wall -Wextra -Werror
-
+CXXFLAGS = -Wall -Wextra -Werror -std=c++23
 SRCS     = bsq.cpp
 OBJS     = $(SRCS:.cpp=.o)
 
